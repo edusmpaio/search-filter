@@ -4,7 +4,7 @@ import { BiSearch } from "react-icons/bi";
 
 function Header() {
   return (
-    <header className="max-w-md mx-auto py-10 px-3">
+    <header className="max-w-md mx-auto py-10 px-4">
       <h1 className="text-3xl font-bold text-center mb-4">
         What are you looking for?
       </h1>
