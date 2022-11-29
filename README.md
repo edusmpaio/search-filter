@@ -6,7 +6,7 @@
   <img alt="Projeto" src=".github/project.png" width="100%">
 </p>
 
-## 💻 Sobre o projeto
+## 💡 Sobre o projeto
 
 Ideia de um filtro de pesquisa, no qual conforme o usuário for digitando no input, apenas os cards que contêm o conteúdo digitado permanecerão na tela em tempo real.
 
@@ -15,6 +15,6 @@ Ideia de um filtro de pesquisa, no qual conforme o usuário for digitando no inp
 - ReactJS
 - TailwindCSS
 
-### Preview
+### 💻 Preview
 
 [Clique aqui](https://search-filter-edusmpaio.vercel.app/) para acessar o projeto.
