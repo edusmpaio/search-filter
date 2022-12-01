@@ -3,9 +3,7 @@ import React from "react";
 import { BiSearch } from "react-icons/bi";
 
 function Header({ setInputValue }) {
-  const handleInputChange = (event) => {
-    setInputValue(event.target.value);
-  };
+  const handleInputChange = (event) => setInputValue(event.target.value);
 
   return (
     <header className="max-w-md mx-auto py-10 px-4">

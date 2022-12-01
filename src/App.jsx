@@ -27,19 +27,20 @@ function App() {
     },
   ];
 
+  const filteredCards =
+    inputValue.length > 0
+      ? cardsData.filter((card) =>
+          card.title.toLowerCase().includes(inputValue.toLowerCase())
+        )
+      : cardsData;
+
   return (
     <>
       <Header setInputValue={setInputValue} />
       <Cards>
-        {cardsData
-          .filter((card) => {
-            return card.title.toLowerCase().includes(inputValue.toLowerCase());
-          })
-          .map((card, index) => {
-            return (
-              <Card key={`card ${index}`} title={card.title} Icon={card.icon} />
-            );
-          })}
+        {filteredCards.map((card) => (
+          <Card key={card.title} title={card.title} Icon={card.icon} />
+        ))}
       </Cards>
     </>
   );
